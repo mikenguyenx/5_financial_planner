@@ -70,7 +70,7 @@ The result on your screen should resemble the following image:
 
 10. Get the Nasdaq Data Link API Key. To get your API key, you need to sign up for a Nasdaq Data Link account. Go to the Nasdaq Data Link homepageLinks to an external site., and then click Sign Up (which appears on the main menu along the top of the page).
 
-11. Clone the repository: git clone "https://github.com/mikenguyenx/bootcamp_homework/tree/main/challenge5_financial_planner" using git or download the ZIP file and extract it to a local directory.
+11. Clone the repository: `git clone "https://github.com/mikenguyenx/5_financial_planner"` using git or download the ZIP file and extract it to a local directory.
 
 
 ## Usage
