@@ -34,7 +34,7 @@ pip install pandas pathlib numpy matplotlib
 ```
 conda install -c anaconda requests
 ```
-5. Install the JSON library, check that your development environment is active, and then run the following command:
+5. Install the `JSON` library, check that your development environment is active, and then run the following command:
 ```
 conda install -c jmcmurray json
 ```
@@ -42,13 +42,13 @@ conda install -c jmcmurray json
 ```
 pip install python-dotenv
 ```
-7. Install the Alpaca SDK. Alpaca is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API. To install this SDK, run the following command in your terminal:
+7. Install the `Alpaca SDK`. Alpaca is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API. To install this SDK, run the following command in your terminal:
 ```
 pip install alpaca-trade-api
 ```
 8. Verify the installations. 
 
-The Requests and JSON libraries get installed with Anaconda. To confirm their installation, do the following: 
+The `Requests` and `JSON` libraries get installed with Anaconda. To confirm their installation, do the following: 
 
 In the terminal, activate the Conda development environment, and then run the following code:
 ```
@@ -59,7 +59,7 @@ conda list json
 The result on your screen should resemble the following image:
 ![verify_requests_json](verify_requests_json.png)
 
-To verify that the library and SDK installations completed, call the pip list function together with the grep -E argument, which enables plain-text searches via the command line. The following code shows this function call:
+To verify that the library and SDK installations completed, call the `pip list` function together with the `grep -E` argument, which enables plain-text searches via the command line. The following code shows this function call:
 ```
 pip list | grep -E "python-dotenv|alpaca-trade-api"
 ```
