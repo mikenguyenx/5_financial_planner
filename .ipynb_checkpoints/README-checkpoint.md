@@ -46,10 +46,26 @@ pip install python-dotenv
 ```
 pip install alpaca-trade-api
 ```
-8. Verify the installations. To verify that the library and SDK installations completed, call the pip list function together with the grep -E argument, which enables plain-text searches via the command line. The following code shows this function call:
+8. Verify the installations. 
+
+The Requests and JSON libraries get installed with Anaconda. To confirm their installation, do the following: 
+
+In the terminal, activate the Conda development environment, and then run the following code:
+```
+conda list requests
+
+conda list json
+```
+The result on your screen should resemble the following image:
+![verify_requests_json](verify_requests_json.png)
+
+To verify that the library and SDK installations completed, call the pip list function together with the grep -E argument, which enables plain-text searches via the command line. The following code shows this function call:
 ```
 pip list | grep -E "python-dotenv|alpaca-trade-api"
 ```
+The result on your screen should resemble the following image:
+![verify_alpaca_dotenv](verify_alpaca_dotenv.png)
+
 9. Get the API Keys. To use certain APIs in this module, you need API keys. You use these unique identifiers to establish an authenticated, secure connection to an API. You'll get keys for both the Nasdaq Data Link and Alpaca APIs.
 
 10. Get the Nasdaq Data Link API Key. To get your API key, you need to sign up for a Nasdaq Data Link account. Go to the Nasdaq Data Link homepageLinks to an external site., and then click Sign Up (which appears on the main menu along the top of the page).
