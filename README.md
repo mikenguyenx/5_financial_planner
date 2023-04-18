@@ -38,9 +38,7 @@ conda install -c anaconda requests
 ```
 conda install -c jmcmurray json
 ```
-6. Install the `python-dotenv` Library. With the python-dotenv library, you can read key-value pairs from an environment file `(.env)` and add them as environment variables.
-
-To install this library, run the following command in your terminal:
+6. Install the `python-dotenv` Library. With the python-dotenv library, you can read key-value pairs from an environment file `(.env)` and add them as environment variables. To install this library, run the following command in your terminal:
 ```
 pip install python-dotenv
 ```
@@ -52,6 +50,9 @@ pip install alpaca-trade-api
 ```
 pip list | grep -E "python-dotenv|alpaca-trade-api"
 ```
+
+
+
 9. Get the API Keys. To use certain APIs in this module, you need API keys. You use these unique identifiers to establish an authenticated, secure connection to an API. You'll get keys for both the Nasdaq Data Link and Alpaca APIs.
 
 10. Get the Nasdaq Data Link API Key. To get your API key, you need to sign up for a Nasdaq Data Link account. Go to the Nasdaq Data Link homepageLinks to an external site., and then click Sign Up (which appears on the main menu along the top of the page).

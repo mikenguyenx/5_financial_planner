@@ -38,9 +38,7 @@ conda install -c anaconda requests
 ```
 conda install -c jmcmurray json
 ```
-6. Install the `python-dotenv` Library. With the python-dotenv library, you can read key-value pairs from an environment file `(.env)` and add them as environment variables.
-
-To install this library, run the following command in your terminal:
+6. Install the `python-dotenv` Library. With the python-dotenv library, you can read key-value pairs from an environment file `(.env)` and add them as environment variables. To install this library, run the following command in your terminal:
 ```
 pip install python-dotenv
 ```
