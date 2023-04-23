@@ -93,9 +93,13 @@ ALPACA_SECRET_KEY= "<YOUR_SECRET_KEY>"
 
 Below are screenshots of examples of results from the analysis:
 
+### <30-Year Monte Carlo Simulation Line Plot> 
+
+![MC_30_line_plot](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\5_financial_planner\MC_30_line_plot.png)
+
 ### <Probability Distribution of Monte Carlo Simulation> 
 
-![MC_30_distribution_plot]()
+![MC_30_distribution_plot](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\5_financial_planner\MC_30_distribution_plot.png)
 
 
 ## Contributors
