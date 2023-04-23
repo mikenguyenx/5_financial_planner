@@ -1,6 +1,6 @@
 # Financial Planner
 
-This Jupyter notebook contains an application that helps credit union members evaluate their financial health by forecasting stock market prices using the Alpaca Trade API to retrieve real-time market data and the MCForecast Tools library to perform Monte Carlo simulations. The notebook contains two financial planning tools: 
+This Jupyter notebook contains code that helps credit union members evaluate their financial health through two financial planning tools: 
 
 (1) A financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund.
 
@@ -18,9 +18,8 @@ Libraries:
 - `os` - A Python standard utility module which provides functions for interacting with the computer's operating system.
 - `requests` - A Python library helps you access data via APIs
 - `json` - A Python library puts the response (that is, data) from an API into human-readable format.
-- `dotenv` - 
-- `alpaca_trade_api` -
-- `MCForecastTools` - 
+- `dotenv` - A Python library that allows you to load environment variables from a file called .env into your Python project. Environment variables are typically used to store sensitive information such as API keys, database credentials, and other secrets that you do not want to hardcode into your project.
+- `alpaca_trade_api` - The Alpaca Trade API is a commission-free trading API that allows developers to programmatically access and interact with the financial markets. The API provides real-time market data, as well as the ability to execute trades and manage portfolios.
 - `warnings` - A Python library that provides a way to handle warning messages that may occur during the execution of a program.
 - `matplotlib` - A Python for creating static, animated, and interactive visualizations in Python. It provides a wide variety of customizable visualizations, including line plots, scatter plots, bar plots, histograms, heatmaps, and more.
 
@@ -93,11 +92,11 @@ ALPACA_SECRET_KEY= "<YOUR_SECRET_KEY>"
 
 Below are screenshots of examples of results from the analysis:
 
-### <30-Year Monte Carlo Simulation Line Plot> 
+### 30-Year Monte Carlo Simulation Line Plot 
 
 ![MC_30_line_plot](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\5_financial_planner\MC_30_line_plot.png)
 
-### <Probability Distribution of Monte Carlo Simulation> 
+### Probability Distribution of Monte Carlo Simulation 
 
 ![MC_30_distribution_plot](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\5_financial_planner\MC_30_distribution_plot.png)
 
