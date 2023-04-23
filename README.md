@@ -8,20 +8,20 @@ This Jupyter notebook contains code that helps credit union members evaluate the
 
 ## Technologies
 
-Programming Language: `Python 3.7.13`
+Programming Language: Python 3.7.13
 
-Interactive Development Environment: `JupyterLab`
+Interactive Development Environment: JupyterLab
 
 
 Libraries: 
-- Pandas - A Python library that is used for data manipulation, analysis, and visualization. 
-- OS - A Python standard utility module which provides functions for interacting with the computer's operating system.
-- Requests` - A Python library helps you access data via APIs
-- JSON - A Python library puts the response (that is, data) from an API into human-readable format.
-- Dotenv - A Python library that allows you to load environment variables from a file called .env into your Python project. Environment variables are typically used to store sensitive information such as API keys, database credentials, and other secrets that you do not want to hardcode into your project.
-- Alpaca_trade_api - The Alpaca Trade API is a commission-free trading API that allows developers to programmatically access and interact with the financial markets. The API provides real-time market data, as well as the ability to execute trades and manage portfolios.
-- Warnings - A Python library that provides a way to handle warning messages that may occur during the execution of a program.
-- Matplotlib - A Python for creating static, animated, and interactive visualizations in Python. It provides a wide variety of customizable visualizations, including line plots, scatter plots, bar plots, histograms, heatmaps, and more.
+- pandas - A Python library that is used for data manipulation, analysis, and visualization. 
+- os - A Python standard utility module which provides functions for interacting with the computer's operating system.
+- requests` - A Python library helps you access data via APIs
+- json - A Python library puts the response (that is, data) from an API into human-readable format.
+- dotenv - A Python library that allows you to load environment variables from a file called .env into your Python project. Environment variables are typically used to store sensitive information such as API keys, database credentials, and other secrets that you do not want to hardcode into your project.
+- alpaca_trade_api - The Alpaca Trade API is a commission-free trading API that allows developers to programmatically access and interact with the financial markets. The API provides real-time market data, as well as the ability to execute trades and manage portfolios.
+- warnings - A Python library that provides a way to handle warning messages that may occur during the execution of a program.
+- matplotlib - A Python for creating static, animated, and interactive visualizations in Python. It provides a wide variety of customizable visualizations, including line plots, scatter plots, bar plots, histograms, heatmaps, and more.
 
 
 Operating System(s):  Any operating system that supports Python, including Windows & macOS.
