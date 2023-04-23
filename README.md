@@ -34,25 +34,16 @@ To run this analysis, make sure you install the necessary dependencies:
 2. Install and run `Jupyter Lab`: `https://jupyter.org/install`
 3. Install the necessary libraries using pip, the package installer for Python:
 ```
-pip install pandas MCForecastTools matplotlib
+pip install pandas dotenv  alpaca-trade-api matplotlib 
 ```
-4. Install the `Requests` library, check that your development environment is active, and then run the following command:
+4. Install the `Requests` & `JSON` libraries, check that your development environment is active, and then run the following command:
 ```
 conda install -c anaconda requests
-```
-5. Install the `JSON` library, check that your development environment is active, and then run the following command:
-```
+
 conda install -c jmcmurray json
 ```
-6. Install the `python-dotenv` Library. With the python-dotenv library, you can read key-value pairs from an environment file `(.env)` and add them as environment variables. To install this library, run the following command in your terminal:
-```
-pip install python-dotenv
-```
-7. Install the `Alpaca SDK`. Alpaca is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API. To install this SDK, run the following command in your terminal:
-```
-pip install alpaca-trade-api
-```
-8. Verify the installations. 
+
+5. Verify the installations. 
 
 The `Requests` and `JSON` libraries get installed with Anaconda. To confirm their installation, do the following: 
 
@@ -88,17 +79,16 @@ ALPACA_SECRET_KEY= "<YOUR_SECRET_KEY>"
 4. Launch Jupyter Lab: `jupyter lab`
 5. Open `financial_planning_tools.ipynb` in Jupyter Lab.
 6. Run the code cells by clicking on the run button or by pressing the `Shift + Enter` key combination to load and preprocess the data, and generate visualizations
-7. Use the Alpaca Trade API to retrieve real-time market data and the MCForecast Tools library to perform Monte Carlo simulations as part of the financial planning tools provided to evaluate financial plans for both emergencies and retirement.
 
 Below are screenshots of examples of results from the analysis:
 
 ### 30-Year Monte Carlo Simulation Line Plot 
 
-![MC_30_line_plot](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\5_financial_planner\MC_30_line_plot.png)
+![MC_30_line_plot](MC_30_line_plot.png)
 
 ### Probability Distribution of Monte Carlo Simulation 
 
-![MC_30_distribution_plot](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\5_financial_planner\MC_30_distribution_plot.png)
+![MC_30_distribution_plot](MC_30_distribution_plot.png)
 
 
 ## Contributors
