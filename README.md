@@ -14,14 +14,14 @@ Interactive Development Environment: `JupyterLab`
 
 
 Libraries: 
-- `pandas` - A Python library that is used for data manipulation, analysis, and visualization. 
-- `os` - A Python standard utility module which provides functions for interacting with the computer's operating system.
-- `requests` - A Python library helps you access data via APIs
-- `json` - A Python library puts the response (that is, data) from an API into human-readable format.
-- `dotenv` - A Python library that allows you to load environment variables from a file called .env into your Python project. Environment variables are typically used to store sensitive information such as API keys, database credentials, and other secrets that you do not want to hardcode into your project.
-- `alpaca_trade_api` - The Alpaca Trade API is a commission-free trading API that allows developers to programmatically access and interact with the financial markets. The API provides real-time market data, as well as the ability to execute trades and manage portfolios.
-- `warnings` - A Python library that provides a way to handle warning messages that may occur during the execution of a program.
-- `matplotlib` - A Python for creating static, animated, and interactive visualizations in Python. It provides a wide variety of customizable visualizations, including line plots, scatter plots, bar plots, histograms, heatmaps, and more.
+- Pandas - A Python library that is used for data manipulation, analysis, and visualization. 
+- OS - A Python standard utility module which provides functions for interacting with the computer's operating system.
+- Requests` - A Python library helps you access data via APIs
+- JSON - A Python library puts the response (that is, data) from an API into human-readable format.
+- Dotenv - A Python library that allows you to load environment variables from a file called .env into your Python project. Environment variables are typically used to store sensitive information such as API keys, database credentials, and other secrets that you do not want to hardcode into your project.
+- Alpaca_trade_api - The Alpaca Trade API is a commission-free trading API that allows developers to programmatically access and interact with the financial markets. The API provides real-time market data, as well as the ability to execute trades and manage portfolios.
+- Warnings - A Python library that provides a way to handle warning messages that may occur during the execution of a program.
+- Matplotlib - A Python for creating static, animated, and interactive visualizations in Python. It provides a wide variety of customizable visualizations, including line plots, scatter plots, bar plots, histograms, heatmaps, and more.
 
 
 Operating System(s):  Any operating system that supports Python, including Windows & macOS.
@@ -30,13 +30,13 @@ Operating System(s):  Any operating system that supports Python, including Windo
 
 To run this analysis, make sure you install the necessary dependencies:
 
-1. Install `Python`: `https://www.python.org/downloads/`
-2. Install and run `Jupyter Lab`: `https://jupyter.org/install`
+1. Install Python: https://www.python.org/downloads/
+2. Install and run Jupyter Lab: https://jupyter.org/install
 3. Install the necessary libraries using pip, the package installer for Python:
 ```
 pip install pandas dotenv  alpaca-trade-api matplotlib 
 ```
-4. Install the `Requests` & `JSON` libraries, check that your development environment is active, and then run the following command:
+4. Install the Requests & JSON libraries, check that your development environment is active, and then run the following command:
 ```
 conda install -c anaconda requests
 
@@ -45,7 +45,7 @@ conda install -c jmcmurray json
 
 5. Verify the installations. 
 
-The `Requests` and `JSON` libraries get installed with Anaconda. To confirm their installation, do the following: 
+The Requests and JSON libraries get installed with Anaconda. To confirm their installation, do the following: 
 
 In the terminal, activate the Conda development environment, and then run the following code:
 ```
@@ -74,9 +74,9 @@ ALPACA_API_KEY= "<YOUR_API_KEY>"
 ALPACA_SECRET_KEY= "<YOUR_SECRET_KEY>"
 ```
 
-2. Clone the repository: `git clone "https://github.com/mikenguyenx/5_financial_planner"` using git or download the ZIP file and extract it to a local directory.
+2. Clone the repository: git clone "https://github.com/mikenguyenx/5_financial_planner" using git or download the ZIP file and extract it to a local directory.
 3. Open a terminal or command prompt and navigate to the directory with the application.
-4. Launch Jupyter Lab: `jupyter lab`
+4. Launch Jupyter Lab: jupyter lab
 5. Open `financial_planning_tools.ipynb` in Jupyter Lab.
 6. Run the code cells by clicking on the run button or by pressing the `Shift + Enter` key combination to load and preprocess the data, and generate visualizations
 
