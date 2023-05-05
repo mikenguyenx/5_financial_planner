@@ -95,9 +95,6 @@ Below are screenshots of examples of results from the analysis:
 
 Mike Nguyen
 
-Email: nguyen.mikeq@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/mike-nguyen-6899554/
 
 ## License
 
