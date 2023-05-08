@@ -34,7 +34,7 @@ To run this analysis, make sure you install the necessary dependencies:
 2. Install and run Jupyter Lab: https://jupyter.org/install
 3. Install the necessary libraries using pip, the package installer for Python:
 ```
-pip install pandas dotenv  alpaca-trade-api matplotlib 
+pip install pandas dotenv alpaca-trade-api matplotlib 
 ```
 4. Install the Requests & JSON libraries, check that your development environment is active, and then run the following command:
 ```
